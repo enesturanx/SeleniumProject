@@ -11,8 +11,8 @@ public class ProductTest extends BaseTest {
     @Test
     @Order(5)
     public void sepetVeOdemeTest(){
-        LoginPage LoginPage = new LoginPage();
-        LoginPage.Login();
+        //LoginPage LoginPage = new LoginPage();
+        //LoginPage.Login();
         ProductPage productPage = new ProductPage();
         productPage.sepetimVeOdeme();
     }
